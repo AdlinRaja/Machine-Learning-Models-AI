@@ -18,7 +18,7 @@ from sklearn.metrics import mean_squared_error,root_mean_squared_error,r2_score,
 
 from analysis import suggest_improvements,generate_summary
 
-key=os.getenv('GOOGLE_API_KEY')
+key=st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=key)
 
 model= genai.GenerativeModel('gemini-2.5-flash-lite')
