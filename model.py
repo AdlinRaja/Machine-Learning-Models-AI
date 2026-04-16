@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 import os
-from dotenv import load_dotenv
-load_dotenv()
+#from dotenv import load_dotenv
+#load_dotenv()
 import google.generativeai as genai
 
 from sklearn.preprocessing import LabelEncoder,StandardScaler
